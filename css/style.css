@@ -1,0 +1,666 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:10px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+header #asda{
+  float: left;
+  padding-left: 100px;
+  margin: 0;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 30px 0 30px;
+}
+
+header #asdo{
+  float:left; 
+  padding-top: 10px;   
+}
+
+header #asdo h1{
+  margin:0;
+  margin-left:0px;
+}
+
+header nav{
+  float:right;
+  padding-right: 30px;
+  margin-top:10px;
+  padding-top: 10px;
+}
+
+header .highlight {
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#000000;
+  font-weight:bold;
+}
+
+#abnoy{
+  min-height: 535px;
+  background:url('../img/bg6.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#abnoy h1{
+  margin-top:170px;
+  font-size:55px;
+  margin-bottom:10px;
+  font-family: cursive;
+}
+
+#abnoy h2{
+  font-size:30px;
+  font-variant: small-caps;
+}
+
+#miks{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a;
+}
+
+#miks h1{
+  float:left;
+  margin-left: 0px;
+}
+
+#miks form {
+  float:right;
+  margin-top:15px;
+}
+
+#miks input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+#jep{
+  margin-top:20px;
+}
+
+#jep .jap{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#jep .jap img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+footer{
+  padding: 10px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+#polongo {
+  width: 100%;
+  height: 1600px;
+  background:url('../img/bgteam1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  color:#ffffff;
+  opacity: 0.85
+}
+
+#polongo h1{
+  margin-left: 550px;
+  margin-right: 400px;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: bold;
+  color: #777777;
+}
+.jep1 img{
+  margin-left: 100px;
+}
+.jep1 p{
+  position: absolute;
+  left: 500px;
+  right: 0;
+  top: 135px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 20px;
+}
+.jep1 h2{
+  position: absolute;
+  left: 43px;
+  right: 900;
+  top: 330px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.jep1 #p1{
+  top: 380px;
+  right: 900px;
+  left: 80px;
+  color: #e8491d; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.jap1 img{
+  margin-right: 100px;
+  float: right;
+  margin-top: 50px;
+}
+.jap1 p{
+  position: absolute;
+  left: 500px;
+  right: 500;
+  top: 400px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 20px;
+}
+.jap1 h2{
+  position: absolute;
+  left: 910px;
+  right: 0;
+  top: 590px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.jap1 #p1{
+  top: 640px;
+  right: 10px;
+  left: 903px;
+  color: #e8491d; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.gab1 img{
+  margin-left: 100px;
+  margin-top: 300px;
+}
+.gab1 p{
+  position: absolute;
+  left: 500px;
+  right: 0;
+  top: 670px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 20px;
+}
+.gab1 h2{
+  position: absolute;
+  left: 28px;
+  right: 900;
+  top: 860px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.gab1 #p1{
+  top: 910px;
+  right: 900px;
+  left: 70px;
+  color: #e8491d; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.miks1 img{
+  margin-right: 100px;
+  float: right;
+  margin-top: 100px;
+}
+.miks1 p{
+  position: absolute;
+  left: 500px;
+  right: 500;
+  top: 985px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 20px;
+}
+.miks1 h2{
+  position: absolute;
+  left: 880px;
+  right: 0;
+  top: 1170px;
+  color: white;
+  padding: 0 60px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.miks1 #p1{
+  top: 1220px;
+  right: 100px;
+  left: 975px;
+  color: #e8491d; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#asde{
+  min-height: 755px;
+  background:url('../img/bgabout1.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  color:#ffffff;
+}
+.asdi h1{
+  font-size: 40px;
+  padding-top: 35px;
+  padding-left: 370px;
+  font-family: cursive;
+}
+#asde .asdi p{
+  position: absolute;
+  top: 218px;
+  left: 600px;
+  right: 40px;
+  text-indent: 30px;
+}
+#asde .asdi h2{
+  position: absolute;
+  top: 160px;
+  left: 600px;
+}
+#asde .kamabuko h2{
+  position: absolute;
+  top: 400px;
+  left: 600px;
+}
+#asde .kamabuko p{
+  position: absolute;
+  top: 460px;
+  left: 600px;
+  right: 40px;
+}
+#naruto{
+  margin-top:30px;
+  margin-left: 30px;
+}
+
+#naruto .boruto{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#naruto .boruto img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+#naruto .boruto p{
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 15px;
+  }
+  #tanjiro .nezuko img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+  }
+#muzan .kibutsuji img{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+}
+.mitsuri h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: cursive;
+  background-color: #35424a;
+  color: white;
+}
+#tanjiro .nezuko1 img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+#tanjiro .nezuko2 img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+#tanjiro .nezuko3 img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.nezuko1 h1{
+  position: absolute;
+  top: 680px;
+  left: 480px;
+}
+.nezuko1 p{
+  position: absolute;
+  top: 780px;
+  left: 480px;
+  right: 30px;
+  text-indent: 30px;
+}
+.nezuko1 #zenitsu {
+position: absolute;
+top: 745px;
+left: 700px;
+width: 100px;
+height: 30px;
+background-color: #EC513C;
+}
+.nezuko4 img{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  top: 745px;
+  left: 550px;
+}
+#muzan .kibutsuji h1{
+  position: absolute;
+  top: 120px;
+  left: 700px;
+}
+#muzan .kibutsuji h2{
+  position: absolute;
+  top: 155px;
+  left: 1080px;
+  color: red;
+}
+#muzan .kibutsuji h3{
+  position: absolute;
+  top: 190px;
+  left: 975px;
+}
+#muzan .kibutsuji p{
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  right: 30px;
+}
+#muzan .rengoku h3{
+  position: absolute;
+  top: 490px;
+  left: 700px;
+}
+#muzan .rengoku li{
+  list-style-position: all;
+  margin-left: 590px;
+  top: 100px;
+}
+#shinobu .kocho img{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+}
+#akaza .doma img{
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+}
+#akaza .doma h1{
+  position: absolute;
+  top: 120px;
+  left: 710px;
+}
+#akaza .doma h2{
+  position: absolute;
+  top: 155px;
+  left: 1080px;
+  color: red;
+}
+#akaza .doma h3{
+  position: absolute;
+  top: 190px;
+  left: 972px;
+}
+#akaza .doma p{
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  right: 30px;
+}
+#akaza .rui h3{
+  position: absolute;
+  top: 620px;
+  left: 700px;
+}
+#akaza .rui li{
+  list-style-position: all;
+  margin-left: 590px;
+  top: 500px;
+}
+.nezuko2 #kamado {
+position: absolute;
+top: 995px;
+left: 700px;
+width: 100px;
+height: 30px;
+background-color: #EC513C;
+}
+.nezuko2 h1{
+  position: absolute;
+  top: 935px;
+  left: 480px;
+}
+.nezuko2 p{
+  position: absolute;
+  left: 480px;
+  top: 1030px;
+  right: 30px;
+  text-indent: 30px;
+}
+.nezuko5 img{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  top: 996px;
+  left: 550px;
+}
+.nezuko3 #sanemi {
+position: absolute;
+top: 1265px;
+left: 700px;
+width: 100px;
+height: 30px;
+background-color: #EC513C;
+}
+.nezuko3 h1{
+  position: absolute;
+  top: 1205px;
+  left: 480px;
+}
+.nezuko3 p{
+  position: absolute;
+  left: 480px;
+  top: 1300px;
+  right: 30px;
+  text-indent: 30px;
+}
+.nezuko6 img{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  top: 1266px;
+  left: 550px;
+}
+#shinobu .kocho h1{
+  position: absolute;
+  top: 120px;
+  left: 700px;
+}
+#shinobu .kocho h2{
+  position: absolute;
+  top: 155px;
+  left: 950px;
+  color: red;
+}
+#shinobu .kocho h3{
+  position: absolute;
+  top: 190px;
+  left: 831px;
+}
+#shinobu .kocho p{
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  right: 30px;
+}
+#shinobu .obanai h3{
+  position: absolute;
+  top: 590px;
+  left: 700px;
+}
+#shinobu .obanai li{
+  list-style-position: all;
+  margin-left: 590px;
+  top: 100px;
+}
+#asde .kompachiro img{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+#jambrotty .jambrot{
+  padding: 120px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+.jambrot h5{
+  position: absolute;
+  float: left;
+  top: 1090px;
+  left: 30px;
+}
+#jambrotty .jambrot h1{
+  position: absolute;
+  float: left;
+  left: 465px;
+  top: 870px;
+  text-decoration-line: underline;
+  font-variant: small-caps;
+}
+.jambrot p{
+  position: absolute;
+  float: left;
+  top: 930px;
+  left: 360px;
+  text-indent: 30px;
+  right: 645px;
+}
+.jambrot1 p{
+    position: absolute;
+  float: left;
+  top: 1010px;
+  left: 480px;
+}
+.jambrot2 h1{
+  position: absolute;
+  float: left;
+  left: 1030px;
+  top: 870px;
+  text-decoration-line: underline;
+  font-variant: small-caps;
+}
+.jambrot2 p{
+  position: absolute;
+  float: left;
+  left: 950px;
+  top: 920px;
+}
+.jambrot3 p{
+  position: absolute;
+  float: left;
+  left: 1035px;
+  top: 1015px;
+}
+.jambrot3 img{
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  float: left;
+  top: 1060px;
+  left: 50px;
+}
+.jambrot2 img{
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  float: left;
+  top: 1060px;
+  left: 100px;
+}
+.jambrot3 h3{
+  position: absolute;
+  float: left;
+  left: 30px;
+  top: 1010px;
+}
